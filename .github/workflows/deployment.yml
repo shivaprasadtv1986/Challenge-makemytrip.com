@@ -1,0 +1,19 @@
+name: Demo Deployment
+on: workflow_dispatch
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Step
+        run: echo "Running build"
+    test:
+      runs-on: ubantu-latest
+      steps:
+        - name: Testing started
+          run: echo 'Running Test cases"cancel-timeout-minutes"
+      deploy:
+        runs-on: ubuntu-latest
+        steps:
+          - name: Deployment
+            run: echo "Deploying app"
+            
