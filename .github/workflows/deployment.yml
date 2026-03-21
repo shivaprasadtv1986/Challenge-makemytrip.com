@@ -9,7 +9,7 @@ jobs:
   test:
     runs-on: ubantu-latest
     steps:
-      - name: Testing started
+      - name: Test Phase
         run: echo "Running Test cases"
   deploy:
     runs-on: ubuntu-latest
